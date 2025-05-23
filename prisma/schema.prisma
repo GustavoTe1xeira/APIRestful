@@ -15,7 +15,7 @@ model User {
   phone      String
   rg         String
   birthDate  DateTime
-  role       String
+  role       String   
   deleted    Boolean  @default(false)
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
