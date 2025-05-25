@@ -17,9 +17,3 @@ npx prisma generate
 npx prisma migrate dev --name init
 npm run dev
 ```
-
-## Acessar Swagger
-
-```
-http://localhost:3000/docs
-```
